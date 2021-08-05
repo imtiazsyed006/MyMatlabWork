@@ -1,3 +1,6 @@
+// Algorithm developed by Masroor Khan. Originally written in Matlab
+// Converted to C by Syed Imtiaz Ali Shah
+
 #ifndef ANGLECORRECTION_H_
 #define ANGLECORRECTION_H_
 
