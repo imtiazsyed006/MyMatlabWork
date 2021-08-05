@@ -1,5 +1,4 @@
 // Algorithm developed by Masroor Khan. Originally written in Matlab
-// Converted to C by Syed Imtiaz Ali Shah
 // For LaunchXl F28379D I had to replace double with float
 #ifndef ANGLECORRECTION_H_
 #define ANGLECORRECTION_H_
