@@ -44,7 +44,7 @@ double fcn(double u,double u1, double s1, double n1, double ncount1,double rem1)
     {
         if (s1 == 0)
         {
-            s_t = s1;
+            s_t = -1;
             b = u - 360;
             rem_t = 0;
         }
