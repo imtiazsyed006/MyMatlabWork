@@ -1,0 +1,6882 @@
+Model {
+  Name			  "SFusion"
+  Version		  9.2
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.12"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    PreCompExecutionDomainType "Unset"
+    IsExportFunctionModel   0
+    NumParameterArguments   0
+    NumExternalFileReferences 0
+    OrderedModelArguments   1
+  }
+  DiagnosticSuppressor	  "on"
+  WebScopes_FoundationPlugin "on"
+  NotesPlugin		  "on"
+  LogicAnalyzerPlugin	  "on"
+  SLCCPlugin		  "on"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "$bdroot"
+      PropName		      "mdlProps"
+    }
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1382.0, 744.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		4
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1328.0, 560.0]
+	  ZoomFactor		  [1.5028248587570621]
+	  Offset		  [405.66541353383457, 269.68421052631578]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "172"
+	  Extents		  [1328.0, 560.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [-17.000000000000057, -111.66666666666666]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "159"
+	  Extents		  [1328.0, 560.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-467.97934190031151, 22.628971962617015]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "311"
+	  Extents		  [1328.0, 560.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [-13.609375, -128.0]
+	}
+	PropName		"EditorsInfo"
+      }
+      Object {
+	$PropName		"DockComponentsInfo"
+	$ObjectID		10
+	$ClassName		"Simulink.DockComponentInfo"
+	Type			"GLUE2:PropertyInspector"
+	ID			"Property Inspector"
+	Visible			[0]
+	CreateCallback		""
+	UserData		""
+	Floating		[0]
+	DockPosition		"Right"
+	Width			[640]
+	Height			[480]
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
+      "QBjAHQAbwByAAAAAAD/////AAAAOQD///8AAAVWAAACbAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
+      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAALO/////wAAAAAAAAAA/"
+      "////wEAAAL9/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+    }
+  }
+  HideAutomaticNames	  on
+  Created		  "Fri Aug 06 14:17:33 2021"
+  Creator		  "Syed Imtiaz Ali Shah"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Syed Imtiaz Ali Shah"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Mon Aug 09 05:17:14 2021"
+  RTWModifiedTimeStamp	  550387003
+  ModelVersionFormat	  "1.%<AutoIncrement:12>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  VariantCondition	  off
+  ShowSubsystemDomainSpec off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  on
+  SimulationMode	  "external"
+  VisualizeLoggedSignalsWhenLoggingToFile off
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  EnablePacing		  off
+  PacingRate		  1
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    11
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "SFusion"
+    overrideMode_	    [0U]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "SFusion"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  2
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      12
+      Version		      "1.18.1"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		11
+	Simulink.SolverCC {
+	  $ObjectID		  13
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  StartTime		  "0.0"
+	  StopTime		  "inf"
+	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
+	  FixedStep		  "0.01"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  on
+	  ConcurrentTasks	  off
+	  Solver		  "FixedStepAuto"
+	  SolverName		  "FixedStepAuto"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  on
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  14
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  off
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Dataset"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  15
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  on
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Individual arguments"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "auto"
+	  MaxStackSize		  "64"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "speed"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse on
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  off
+	  UseRowMajorAlgorithm	  off
+	  LabelGuidedReuse	  off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  16
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "error"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  InvalidFcnCallConnMsg	  "error"
+	  FcnCallInpInsideContextMsg "error"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  LibraryContextMissingDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "error"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "error"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "warning"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  17
+	  Version		  "1.18.1"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "ProdHWDeviceType"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  16
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  16
+	  ProdBitPerSizeT	  16
+	  ProdBitPerPtrDiffT	  16
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  8
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Atmel->AVR"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  18
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel on
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  19
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  ""
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  on
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimBuildMode		  "sf_incremental_build"
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  off
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  20
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  SystemTargetFile	  "ert.tlc"
+	  HardwareBoard		  "Arduino Mega 2560"
+	  TLCOptions		  "-aInlineSetEventsForThisBaseRateFcn=TLC_FALSE -aSuppressMultiTaskScheduler=TLC_FALSE -aRateBasedStep"
+	  "Fcn=1"
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "ert_default_tmf"
+	  PostCodeGenCommand	  "codertarget.postCodeGenHookCommand(h)"
+	  Description		  "Embedded Coder"
+	  GenerateReport	  on
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  Array {
+	    Type		    "Struct"
+	    Dimension		    1
+	    MATStruct {
+	      className		      "codertarget.tools.BuildHook"
+	      Array {
+		Type			"Cell"
+		Dimension		0
+		PropName		"argsAllComponents"
+	      }
+	      argsTopModelOnly	      []
+	      excludedModels	      []
+	      includeReferencedModels "on"
+	      includeTopModel	      "on"
+	      enabled		      "on"
+	    }
+	    PropName		    "RTWBuildHooks"
+	  }
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  on
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Arduino AVR"
+	  BuildConfiguration	  "Faster Runs"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport on
+	  LaunchReport		  on
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  on
+	  GenerateTraceReport	  on
+	  GenerateTraceReportSl	  on
+	  GenerateTraceReportSf	  on
+	  GenerateTraceReportEml  on
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      21
+	      Version		      "1.18.1"
+	      DisabledProps	      []
+	      Description	      ""
+	      Comment		      ""
+	      ForceParamTrailComments on
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses off
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement on
+	      OperatorAnnotations     on
+	      SimulinkDataObjDesc     on
+	      SFDataObjDesc	      on
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      SharedChecksumLength    8
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      on
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments off
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	    }
+	    Simulink.ERTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      22
+	      Version		      "1.18.1"
+	      DisabledProps	      []
+	      Description	      ""
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      256
+	      DynamicStringBufferSize 256
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      GeneratePreprocessorConditionals "Use local settings"
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    on
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      off
+	      MultiInstanceERTCode    off
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  off
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      on
+	      SupportVariableSizeSignals on
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      PreserveStateflowLocalDataDimensions off
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.ERTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant on
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      GenerateASAP2	      off
+	      DSAsUniqueAccess	      off
+	      ExtMode		      off
+	      ExtModeTransport	      0
+	      ExtModeStaticAlloc      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTesting	      off
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      InlinedParameterPlacement	"Hierarchical"
+	      TargetOS		      "BareBoardExample"
+	      MultiInstanceErrorCode  "Error"
+	      RootIOFormat	      "Individual arguments"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      ERTSrcFileBannerTemplate "ert_code_template.cgt"
+	      ERTHdrFileBannerTemplate "ert_code_template.cgt"
+	      ERTDataSrcFileTemplate  "ert_code_template.cgt"
+	      ERTDataHdrFileTemplate  "ert_code_template.cgt"
+	      ERTCustomFileTemplate   "codertarget_file_process.tlc"
+	      EnableDataOwnership     off
+	      SignalDisplayLevel      10
+	      ParamTuneLevel	      10
+	      GlobalDataDefinition    "Auto"
+	      DataDefinitionFile      "global.c"
+	      GlobalDataReference     "Auto"
+	      ERTFilePackagingFormat  "Modular"
+	      RateTransitionBlockCode "Inline"
+	      DataReferenceFile	      "global.h"
+	      PreserveExpressionOrder off
+	      PreserveIfCondition     off
+	      ConvertIfToSwitch	      on
+	      PreserveExternInFcnDecls on
+	      PreserveStaticInFcnDecls on
+	      SuppressUnreachableDefaultCases on
+	      EnableSignedLeftShifts  on
+	      EnableSignedRightShifts on
+	      IndentStyle	      "K&R"
+	      IndentSize	      "2"
+	      NewlineStyle	      "Default"
+	      EnableUserReplacementTypes off
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  double		  ""
+		  single		  ""
+		  int32			  ""
+		  int16			  ""
+		  int8			  ""
+		  uint32		  ""
+		  uint16		  ""
+		  uint8			  ""
+		  boolean		  ""
+		  int			  ""
+		  uint			  ""
+		  char			  ""
+		  uint64		  ""
+		  int64			  ""
+		}
+		PropName		"ReplacementTypes"
+	      }
+	      MaxIdInt64	      "MAX_int64_T"
+	      MinIdInt64	      "MIN_int64_T"
+	      MaxIdUint64	      "MAX_uint64_T"
+	      MaxIdInt32	      "MAX_int32_T"
+	      MinIdInt32	      "MIN_int32_T"
+	      MaxIdUint32	      "MAX_uint32_T"
+	      MaxIdInt16	      "MAX_int16_T"
+	      MinIdInt16	      "MIN_int16_T"
+	      MaxIdUint16	      "MAX_uint16_T"
+	      MaxIdInt8		      "MAX_int8_T"
+	      MinIdInt8		      "MIN_int8_T"
+	      MaxIdUint8	      "MAX_uint8_T"
+	      BooleanTrueId	      "true"
+	      BooleanFalseId	      "false"
+	      TypeLimitIdReplacementHeaderFile ""
+	      MemSecPackage	      "--- None ---"
+	      MemSecDataConstants     "Default"
+	      MemSecDataIO	      "Default"
+	      MemSecDataInternal      "Default"
+	      MemSecDataParameters    "Default"
+	      MemSecFuncInitTerm      "Default"
+	      MemSecFuncExecute	      "Default"
+	      MemSecFuncSharedUtil    "Default"
+	      GroupConstants	      "Default"
+	      GroupRootInputs	      "Default"
+	      GroupRootOutputs	      "Default"
+	      GroupInternal	      "Default"
+	      GroupParameters	      "Default"
+	      GroupDataTransfer	      "Default"
+	      GroupSharedLocalDataStores "Default"
+	      GroupInstanceSpecificParameters "Default"
+	      GroupModelData	      "Default"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  23
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dwe"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovHtmlReporting	  off
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar off
+	  CovSaveSingleToWorkspaceVar off
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovShowResultsExplorer  on
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  on
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  24
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "HDL Coder custom configuration component"
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	CoderTarget.SettingsController {
+	  $ObjectID		  25
+	  Version		  "1.18.1"
+	  DisabledProps		  []
+	  Description		  "Coder Target"
+	  Name			  "Coder Target"
+	  Array {
+	    Type		    "Struct"
+	    Dimension		    1
+	    MATStruct {
+	      UseCoderTarget	      [1]
+	      TargetHardware	      "Arduino Mega 2560"
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Array {
+		    Type		    "Struct"
+		    Dimension		    1
+		    MATStruct {
+		    IPAddress		    "codertarget.arduinobase.registry.getLoopbackIP;"
+		    Port		    "17725"
+		    Verbose		    [0]
+		    }
+		    PropName		    "Serial"
+		  }
+		  Array {
+		    Type		    "Struct"
+		    Dimension		    1
+		    MATStruct {
+		    IPAddress		    "codertarget.arduinobase.internal.getExternalModeMexArgs('Ethernet')"
+		    Port		    "17725"
+		    Verbose		    [0]
+		    }
+		    PropName		    "TCPIP"
+		  }
+		  Array {
+		    Type		    "Struct"
+		    Dimension		    1
+		    MATStruct {
+		    IPAddress		    "codertarget.arduinobase.internal.getExternalModeMexArgs('Wifi')"
+		    Port		    "17725"
+		    Verbose		    [0]
+		    }
+		    PropName		    "WiFi"
+		  }
+		}
+		PropName		"ConnectionInfo"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Configuration		  "Serial"
+		  COMPortBaud		  "921600"
+		}
+		PropName		"ExtMode"
+	      }
+	      RTOS		      "Baremetal"
+	      Scheduler_interrupt_source [0.0]
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  BuildAction		  "Build, load and run"
+		}
+		PropName		"Runtime"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Set_host_COM_port	  "Manually"
+		  COM_port_number	  "4"
+		}
+		PropName		"HostCOMPort"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Enable_SimulinkIO	  [1.0]
+		}
+		PropName		"SimulinkIO"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Enable_overrun_detection [0.0]
+		  Digital_output_to_set_on_overrun "13"
+		}
+		PropName		"OverRunDetection"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Analog_input_reference_voltage [0.0]
+		}
+		PropName		"AnalogInRefVoltage"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Serial0_baud_rate	  "9600"
+		  Serial1_baud_rate	  "9600"
+		  Serial2_baud_rate	  "9600"
+		  Serial3_baud_rate	  "9600"
+		}
+		PropName		"Serial"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  I2C0BusSpeedHz	  "100000"
+		}
+		PropName		"I2C"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  SPI_clock_out_frequency "1000"
+		  SPI_mode		  "Mode 0 - Clock Polarity 0, Clock Phase 0"
+		  SPI_bitorder		  "MSB first"
+		}
+		PropName		"SPI"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Disable_DHCP_Ethernet	  [0.0]
+		  Local_ip_address	  "192.168.0.20"
+		  Local_mac_address	  "DE:AD:BE:EF:FE:ED"
+		}
+		PropName		"Ethernet"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Wifi_Hardware		  "WiFi shield"
+		  Disable_DHCP_Wifi	  [0.0]
+		  Wifi_ip_address	  "192.168.1.20"
+		  Wifi_SSID		  "yourNetwork"
+		  Set_Wifi_Encryption	  "None"
+		  Wifi_WEP_key		  "D0D0DEADF00DABBADEAFBEADED"
+		  Wifi_WEP_key_index	  "0"
+		  Wifi_WPA_password	  "secretPassword"
+		  Wifi_ESP8266_HW_serial_port "Serial 0"
+		}
+		PropName		"Wifi"
+	      }
+	      Array {
+		Type			"Struct"
+		Dimension		1
+		MATStruct {
+		  Enable_CustomServer	  "0"
+		  IP_address		  "184.106.153.149"
+		  Port			  "80"
+		}
+		PropName		"ThingSpeak"
+	      }
+	      DataVersion	      "2016.02"
+	    }
+	    PropName		    "CoderTargetData"
+	  }
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      ExtraOptions	      "-aBlockCommentType=\"BlockPathComment\" -aIgnoreTestpoints=0 -aInlineSetEventsForThisBaseRat"
+      "eFcn=TLC_FALSE -aSuppressMultiTaskScheduler=TLC_FALSE -aRateBasedStepFcn=1"
+      CurrentDlgPage	      "Hardware Implementation"
+      ConfigPrmDlgPosition    [ 71, 70, 1061, 698 ]
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    12
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    26
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "left"
+    VerticalAlignment	    "top"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    MarkupType		    "model"
+    UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      ArithShift
+      BitShiftNumberSource    "Dialog"
+      BitShiftNumber	      "0"
+      BinPtShiftNumber	      "0"
+      BitShiftDirection	      "Bidirectional"
+      DiagnosticForOORShift   "None"
+      CheckOORBitShift	      off
+    }
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      DataTypeConversion
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit via back propagation"
+      LockScale		      off
+      ConvertRealWorld	      "Real World Value (RWV)"
+      RndMeth		      "Zero"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      Lockdown		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      EnablePort
+      StatesWhenEnabling      "held"
+      PropagateVarSize	      "Only when enabling"
+      ShowOutputPort	      off
+      ZeroCross		      on
+      DisallowConstTsAndPrmTs off
+      PortDimensions	      "1"
+      SampleTime	      "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "double"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      FunctionCallSplit
+      IconShape		      "round"
+      OutputPortLayout	      "reverse"
+    }
+    Block {
+      BlockType		      Logic
+      Operator		      "AND"
+      Inputs		      "2"
+      IconShape		      "rectangular"
+      AllPortsSameDT	      on
+      OutDataTypeStr	      "Inherit: Logical (see Configuration Parameters: Optimization)"
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Mux
+      Inputs		      "4"
+      DisplayOption	      "none"
+      UseBusObject	      off
+      BusObject		      "BusObject"
+      NonVirtualBus	      off
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      Unit		      "inherit"
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      EnsureOutportIsVirtual  off
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+      MustResolveToSignalObject	off
+      OutputWhenUnConnected   off
+      OutputWhenUnconnectedValue "0"
+      VectorParamsAs1DForOutWhenUnconnected off
+    }
+    Block {
+      BlockType		      RateTransition
+      Integrity		      on
+      Deterministic	      on
+      InitialCondition	      "0"
+      OutPortSampleTimeOpt    "Specify"
+      OutPortSampleTimeMultiple	"1"
+      OutPortSampleTime	      "-1"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      VariantControlMode      "Expression"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsObserver	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
+    }
+    Block {
+      BlockType		      TriggerPort
+      TriggerType	      "rising"
+      IsSimulinkFunction      off
+      FunctionVisibility      "global"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      StatesWhenEnabling      "inherit"
+      PropagateVarSize	      "During execution"
+      ShowOutputPort	      off
+      OutputDataType	      "auto"
+      SampleTimeType	      "triggered"
+      SampleTime	      "1"
+      ZeroCross		      on
+      DisallowConstTsAndPrmTs off
+      InitialTriggerSignalState	"compatibility (no trigger on first evaluation)"
+      PortDimensions	      "-1"
+      TriggerSignalSampleTime "-1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      UnitDelay
+      InitialCondition	      "0"
+      InputProcessing	      "Inherited"
+      SampleTime	      "1"
+      StateMustResolveToSignalObject off
+      CodeGenStateStorageClass "Auto"
+      HasFrameUpgradeWarning  on
+    }
+  }
+  System {
+    Name		    "SFusion"
+    Location		    [-8, -8, 1374, 736]
+    Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "150"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "460"
+    Block {
+      BlockType		      Logic
+      Name		      "AND"
+      SID		      "3"
+      Ports		      [1, 1]
+      Position		      [740, 279, 775, 311]
+      ZOrder		      270
+      Commented		      "on"
+      Inputs		      "1"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "1"
+      Position		      [530, 280, 560, 310]
+      ZOrder		      1
+      Commented		      "on"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "Constant1"
+      SID		      "157"
+      Position		      [670, 460, 700, 490]
+      ZOrder		      293
+      Commented		      "on"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Detect\nChange"
+      SID		      "2"
+      Ports		      [1, 1]
+      Position		      [610, 280, 670, 310]
+      ZOrder		      2
+      Commented		      "on"
+      LibraryVersion	      "1.444"
+      SourceBlock	      "simulink/Logic and Bit\nOperations/Detect\nChange"
+      SourceType	      "Detect Change"
+      SourceProductName	      "Simulink"
+      SourceProductBaseCode   "SL"
+      ContentPreviewEnabled   on
+      vinit		      "0"
+      InputProcessing	      "Elements as channels (sample based)"
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display"
+      SID		      "368"
+      Ports		      [1]
+      Position		      [1070, 517, 1165, 633]
+      ZOrder		      304
+      Commented		      "on"
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Enabled\nSubsystem"
+      SID		      "30"
+      Ports		      [0, 0, 1]
+      Position		      [770, 344, 870, 386]
+      ZOrder		      285
+      Commented		      "on"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Enabled\nSubsystem"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"80"
+	Block {
+	  BlockType		  EnablePort
+	  Name			  "Enable"
+	  SID			  "32"
+	  Ports			  []
+	  Position		  [165, -55, 185, -35]
+	  ZOrder		  -2
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Function-Call\nGenerator"
+	  SID			  "91"
+	  Ports			  [0, 1]
+	  Position		  [-155, 39, -135, 61]
+	  ZOrder		  23
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Ports &\nSubsystems/Function-Call\nGenerator"
+	  SourceType		  "Function-Call Generator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  sample_time		  "1"
+	  numberOfIterations	  "1"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit"
+	  SID			  "80"
+	  Ports			  [1, 2]
+	  Position		  [35, 30, 55, 70]
+	  ZOrder		  12
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit1"
+	  SID			  "81"
+	  Ports			  [1, 2]
+	  Position		  [185, 30, 205, 70]
+	  ZOrder		  13
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit2"
+	  SID			  "82"
+	  Ports			  [1, 2]
+	  Position		  [345, 30, 365, 70]
+	  ZOrder		  14
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit3"
+	  SID			  "83"
+	  Ports			  [1, 2]
+	  Position		  [505, 30, 525, 70]
+	  ZOrder		  15
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit4"
+	  SID			  "84"
+	  Ports			  [1, 2]
+	  Position		  [35, 160, 55, 200]
+	  ZOrder		  16
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit5"
+	  SID			  "85"
+	  Ports			  [1, 2]
+	  Position		  [185, 160, 205, 200]
+	  ZOrder		  17
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit6"
+	  SID			  "86"
+	  Ports			  [1, 2]
+	  Position		  [345, 160, 365, 200]
+	  ZOrder		  18
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit7"
+	  SID			  "87"
+	  Ports			  [1, 2]
+	  Position		  [505, 160, 525, 200]
+	  ZOrder		  19
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit8"
+	  SID			  "88"
+	  Ports			  [1, 2]
+	  Position		  [35, 285, 55, 325]
+	  ZOrder		  20
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit9"
+	  SID			  "89"
+	  Ports			  [1, 2]
+	  Position		  [185, 285, 205, 325]
+	  ZOrder		  21
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem"
+	  SID			  "34"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 109, 95, 151]
+	  ZOrder		  1
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "36"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "39"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "BIT_H_RESET"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "38"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_1"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem1"
+	  SID			  "40"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 109, 245, 151]
+	  ZOrder		  2
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem1"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "41"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "42"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "43"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_1"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem10"
+	  SID			  "76"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 354, 405, 396]
+	  ZOrder		  11
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem10"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "77"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "78"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(11,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "79"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(11,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem2"
+	  SID			  "44"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 109, 405, 151]
+	  ZOrder		  3
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem2"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "45"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "46"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "47"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_2"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem3"
+	  SID			  "48"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 109, 565, 151]
+	  ZOrder		  4
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem3"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "49"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "50"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "BITS_DLPF_CFG_188HZ"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "51"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_CONFIG"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem4"
+	  SID			  "52"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 229, 95, 271]
+	  ZOrder		  5
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem4"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "53"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "54"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(5,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "55"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(5,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem5"
+	  SID			  "56"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 229, 245, 271]
+	  ZOrder		  6
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem5"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "57"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "58"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(6,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "59"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(6,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem6"
+	  SID			  "60"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 229, 405, 271]
+	  ZOrder		  7
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem6"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "61"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "62"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(7,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "63"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(7,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem7"
+	  SID			  "64"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 229, 565, 271]
+	  ZOrder		  8
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem7"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "65"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "66"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(8,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "67"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(8,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem8"
+	  SID			  "68"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 354, 95, 396]
+	  ZOrder		  9
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem8"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "69"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "70"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(9,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "71"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(9,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem9"
+	  SID			  "72"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 354, 245, 396]
+	  ZOrder		  10
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem9"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "73"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "74"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(10,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "75"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(10,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem7"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem8"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  2
+	  Points		  [145, 0]
+	  DstBlock		  "Function-Call\nSubsystem10"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit9"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem9"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem6"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem5"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem4"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  17
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  18
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 164; -598, 0; 0, -34]
+	  DstBlock		  "Function-Call\nSplit4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  19
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit7"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  2
+	  Points		  [42, 0; 0, 159; -584, 0; 0, -34]
+	  DstBlock		  "Function-Call\nSplit8"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem1"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem2"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  26
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem3"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  27
+	  SrcBlock		  "Function-Call\nGenerator"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSplit"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Enabled\nSubsystem1"
+      SID		      "99"
+      Ports		      [0, 0, 1]
+      Position		      [900, 344, 1000, 386]
+      ZOrder		      292
+      Commented		      "on"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Enabled\nSubsystem1"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"80"
+	Block {
+	  BlockType		  EnablePort
+	  Name			  "Enable"
+	  SID			  "100"
+	  Ports			  []
+	  Position		  [165, -55, 185, -35]
+	  ZOrder		  -2
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Function-Call\nGenerator"
+	  SID			  "101"
+	  Ports			  [0, 1]
+	  Position		  [-155, 39, -135, 61]
+	  ZOrder		  23
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Ports &\nSubsystems/Function-Call\nGenerator"
+	  SourceType		  "Function-Call Generator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  sample_time		  "1"
+	  numberOfIterations	  "1"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit"
+	  SID			  "102"
+	  Ports			  [1, 2]
+	  Position		  [35, 30, 55, 70]
+	  ZOrder		  12
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit1"
+	  SID			  "103"
+	  Ports			  [1, 2]
+	  Position		  [185, 30, 205, 70]
+	  ZOrder		  13
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit2"
+	  SID			  "104"
+	  Ports			  [1, 2]
+	  Position		  [345, 30, 365, 70]
+	  ZOrder		  14
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit3"
+	  SID			  "105"
+	  Ports			  [1, 2]
+	  Position		  [505, 30, 525, 70]
+	  ZOrder		  15
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit4"
+	  SID			  "106"
+	  Ports			  [1, 2]
+	  Position		  [35, 160, 55, 200]
+	  ZOrder		  16
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit5"
+	  SID			  "107"
+	  Ports			  [1, 2]
+	  Position		  [185, 160, 205, 200]
+	  ZOrder		  17
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit6"
+	  SID			  "108"
+	  Ports			  [1, 2]
+	  Position		  [345, 160, 365, 200]
+	  ZOrder		  18
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit7"
+	  SID			  "109"
+	  Ports			  [1, 2]
+	  Position		  [505, 160, 525, 200]
+	  ZOrder		  19
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit8"
+	  SID			  "110"
+	  Ports			  [1, 2]
+	  Position		  [35, 285, 55, 325]
+	  ZOrder		  20
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit9"
+	  SID			  "111"
+	  Ports			  [1, 2]
+	  Position		  [185, 285, 205, 325]
+	  ZOrder		  21
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem"
+	  SID			  "112"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 109, 95, 151]
+	  ZOrder		  1
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "113"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "114"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "BIT_H_RESET"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "115"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_1"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem1"
+	  SID			  "116"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 109, 245, 151]
+	  ZOrder		  2
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem1"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "117"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "118"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "119"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_1"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem10"
+	  SID			  "120"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 354, 405, 396]
+	  ZOrder		  11
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem10"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "121"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "122"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(11,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "123"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(11,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem2"
+	  SID			  "124"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 109, 405, 151]
+	  ZOrder		  3
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem2"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "125"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "126"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "0"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "127"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_PWR_MGMT_2"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem3"
+	  SID			  "128"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 109, 565, 151]
+	  ZOrder		  4
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem3"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "129"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "130"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "BITS_DLPF_CFG_188HZ"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "131"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "MPUREG_CONFIG"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem4"
+	  SID			  "132"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 229, 95, 271]
+	  ZOrder		  5
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem4"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "133"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "134"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(5,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "135"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(5,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem5"
+	  SID			  "136"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 229, 245, 271]
+	  ZOrder		  6
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem5"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "137"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "138"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(6,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "139"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(6,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem6"
+	  SID			  "140"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 229, 405, 271]
+	  ZOrder		  7
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem6"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "141"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "142"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(7,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "143"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(7,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem7"
+	  SID			  "144"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 229, 565, 271]
+	  ZOrder		  8
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem7"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "145"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "146"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(8,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "147"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(8,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem8"
+	  SID			  "148"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 354, 95, 396]
+	  ZOrder		  9
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem8"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "149"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "150"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(9,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "151"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(9,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem9"
+	  SID			  "152"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 354, 245, 396]
+	  ZOrder		  10
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem9"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "153"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "154"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "Initialize(10,1)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI Register Write"
+	      SID		      "155"
+	      Ports		      [1]
+	      Position		      [305, 15, 405, 75]
+	      ZOrder		      80
+	      LibraryVersion	      "1.8"
+	      SourceBlock	      "mbedblockslib/SPI Register Write"
+	      SourceType	      "mbed.SPIRegisterWrite"
+	      SourceProductName	      "Simulink Coder Support Package for BBC microbit Board"
+	      SourceProductBaseCode   "MICROBIT"
+	      SPIModule		      "1"
+	      Mode		      "Master"
+	      BusSpeed		      "uint32( 1000000 )"
+	      Pin		      "7"
+	      FirstBitToTransfer      "Most significant bit (MSB)"
+	      ClockMode		      "0"
+	      BlockFunction	      "Write"
+	      RegisterAddress	      "Initialize(10,2)"
+	      OutputDataType	      "int8"
+	      OutputDataLength	      "1"
+	      UseCustomSSPin	      "Explicit GPIO calls"
+	      ActiveLowSSPin	      "Active low"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI Register Write"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "Function-Call\nGenerator"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSplit"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem3"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem2"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem1"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  2
+	  Points		  [42, 0; 0, 159; -584, 0; 0, -34]
+	  DstBlock		  "Function-Call\nSplit8"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit7"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 164; -598, 0; 0, -34]
+	  DstBlock		  "Function-Call\nSplit4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem4"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem5"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem6"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem9"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit9"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  17
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  2
+	  Points		  [145, 0]
+	  DstBlock		  "Function-Call\nSubsystem10"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  18
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem8"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  19
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem7"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem"
+	  DstPort		  trigger
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Enabled\nSubsystem2"
+      SID		      "159"
+      Ports		      [0, 0, 1]
+      Position		      [770, 554, 870, 596]
+      ZOrder		      296
+      Commented		      "on"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Enabled\nSubsystem2"
+	Location		[-8, -8, 1374, 736]
+	Open			on
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"80"
+	Block {
+	  BlockType		  EnablePort
+	  Name			  "Enable"
+	  SID			  "160"
+	  Ports			  []
+	  Position		  [165, -55, 185, -35]
+	  ZOrder		  -2
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Function-Call\nGenerator"
+	  SID			  "161"
+	  Ports			  [0, 1]
+	  Position		  [-155, 39, -135, 61]
+	  ZOrder		  23
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Ports &\nSubsystems/Function-Call\nGenerator"
+	  SourceType		  "Function-Call Generator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  sample_time		  "1"
+	  numberOfIterations	  "1"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit"
+	  SID			  "162"
+	  Ports			  [1, 2]
+	  Position		  [35, 30, 55, 70]
+	  ZOrder		  12
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit1"
+	  SID			  "163"
+	  Ports			  [1, 2]
+	  Position		  [185, 30, 205, 70]
+	  ZOrder		  13
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit10"
+	  SID			  "304"
+	  Ports			  [1, 2]
+	  Position		  [345, 355, 365, 395]
+	  ZOrder		  24
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit11"
+	  SID			  "310"
+	  Ports			  [1, 2]
+	  Position		  [35, 550, 55, 590]
+	  ZOrder		  27
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit12"
+	  SID			  "318"
+	  Ports			  [1, 2]
+	  Position		  [505, 355, 525, 395]
+	  ZOrder		  29
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit13"
+	  SID			  "371"
+	  Ports			  [1, 2]
+	  Position		  [195, 550, 215, 590]
+	  ZOrder		  31
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit2"
+	  SID			  "164"
+	  Ports			  [1, 2]
+	  Position		  [345, 30, 365, 70]
+	  ZOrder		  14
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit3"
+	  SID			  "165"
+	  Ports			  [1, 2]
+	  Position		  [505, 30, 525, 70]
+	  ZOrder		  15
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit4"
+	  SID			  "166"
+	  Ports			  [1, 2]
+	  Position		  [35, 200, 55, 240]
+	  ZOrder		  16
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit5"
+	  SID			  "167"
+	  Ports			  [1, 2]
+	  Position		  [185, 200, 205, 240]
+	  ZOrder		  17
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit6"
+	  SID			  "168"
+	  Ports			  [1, 2]
+	  Position		  [345, 200, 365, 240]
+	  ZOrder		  18
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit7"
+	  SID			  "169"
+	  Ports			  [1, 2]
+	  Position		  [505, 200, 525, 240]
+	  ZOrder		  19
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit8"
+	  SID			  "170"
+	  Ports			  [1, 2]
+	  Position		  [35, 355, 55, 395]
+	  ZOrder		  20
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit9"
+	  SID			  "171"
+	  Ports			  [1, 2]
+	  Position		  [185, 355, 205, 395]
+	  ZOrder		  21
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem"
+	  SID			  "172"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 109, 95, 151]
+	  ZOrder		  1
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    on
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "173"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "174"
+	      Position		      [135, 24, 255, 66]
+	      ZOrder		      81
+	      Value		      "[PWR_MGMNT_1 CLOCK_SEL_PLL]"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "274"
+	      Ports		      [1, 1]
+	      Position		      [305, 15, 430, 75]
+	      ZOrder		      300
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem1"
+	  SID			  "176"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 109, 245, 151]
+	  ZOrder		  2
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem1"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "175"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "177"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "275"
+	      Position		      [370, 114, 490, 156]
+	      ZOrder		      301
+	      Value		      "Init(2,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "276"
+	      Ports		      [1, 1]
+	      Position		      [540, 105, 665, 165]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem10"
+	  SID			  "180"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 424, 405, 466]
+	  ZOrder		  11
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem10"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "181"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "293"
+	      Position		      [195, 24, 315, 66]
+	      ZOrder		      303
+	      Value		      "Init(11,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "294"
+	      Ports		      [1, 1]
+	      Position		      [365, 15, 490, 75]
+	      ZOrder		      304
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem11"
+	  SID			  "305"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 424, 565, 466]
+	  ZOrder		  25
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem11"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "306"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "System Outputs"
+	      SID		      "309"
+	      Ports		      []
+	      Position		      [126, -9, 210, 36]
+	      ZOrder		      305
+	      BackgroundColor	      "magenta"
+	      ShowName		      off
+	      List {
+		ListType		RTWdata
+		TLCFile			"custcode"
+		Location		"System Outputs Function"
+		Middle			"delay(10);       \n/*Delay of 1 ms*/\n"
+	      }
+	      CopyFcn		      "cccopyfcn(gcb)"
+	      OpenFcn		      "ccopenfcn('System Outputs Function')"
+	      FontName		      "Times New Roman"
+	      FontSize		      12
+	      FontWeight	      "bold"
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		27
+		$ClassName		"Simulink.Mask"
+		Type			"System Outputs"
+		Help			"eval('feval(''rtwprivate'',''rtwhelpview'',''rtw_sys_outputs_block'')');"
+		Display			"disp('System\\nOutputs');"
+		RunInitForIconRedraw	"off"
+		Object {
+		  $PropName		  "Parameters"
+		  $ObjectID		  28
+		  $ClassName		  "Simulink.MaskParameter"
+		  Type			  "edit"
+		  Name			  "ShowInLibBrowser"
+		  Prompt		  "Simulink:masks:CustCodeMaskParam1_MP"
+		  Value			  "0"
+		  Enabled		  "off"
+		  Visible		  "off"
+		}
+	      }
+	      System {
+		Name			"System Outputs"
+		Location		[628, 280, 831, 653]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+	      }
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem12"
+	  SID			  "311"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 619, 95, 661]
+	  ZOrder		  26
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem12"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    on
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "312"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "313"
+	      Position		      [0, 9, 230, 81]
+	      ZOrder		      303
+	      Value		      "[MPUREG_ACCEL_CONFIG BITS_FS_2G]"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "369"
+	      Position		      [255, 28, 330, 62]
+	      ZOrder		      305
+	      OutDataTypeStr	      "uint8"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "314"
+	      Ports		      [1, 1]
+	      Position		      [365, 15, 490, 75]
+	      ZOrder		      304
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem13"
+	  SID			  "315"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [155, 619, 255, 661]
+	  ZOrder		  28
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem13"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "316"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "320"
+	      Position		      [-140, -17, 145, 67]
+	      ZOrder		      306
+	      Value		      "[MPUREG_GYRO_CONFIG BITS_FS_250DPS]"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "370"
+	      Position		      [175, 8, 250, 42]
+	      ZOrder		      308
+	      OutDataTypeStr	      "uint8"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "321"
+	      Ports		      [1, 1]
+	      Position		      [310, -5, 435, 55]
+	      ZOrder		      307
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      1
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem14"
+	  SID			  "372"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [335, 619, 435, 661]
+	  ZOrder		  32
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem14"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "373"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      SubSystem
+	      Name		      "System Outputs"
+	      SID		      "374"
+	      Ports		      []
+	      Position		      [126, -9, 210, 36]
+	      ZOrder		      305
+	      BackgroundColor	      "magenta"
+	      ShowName		      off
+	      List {
+		ListType		RTWdata
+		TLCFile			"custcode"
+		Location		"System Outputs Function"
+		Middle			"delay(10);       \n/*Delay of 1 ms*/\n"
+	      }
+	      CopyFcn		      "cccopyfcn(gcb)"
+	      OpenFcn		      "ccopenfcn('System Outputs Function')"
+	      FontName		      "Times New Roman"
+	      FontSize		      12
+	      FontWeight	      "bold"
+	      RequestExecContextInheritance off
+	      Object {
+		$PropName		"MaskObject"
+		$ObjectID		29
+		$ClassName		"Simulink.Mask"
+		Type			"System Outputs"
+		Help			"eval('feval(''rtwprivate'',''rtwhelpview'',''rtw_sys_outputs_block'')');"
+		Display			"disp('System\\nOutputs');"
+		RunInitForIconRedraw	"off"
+		Object {
+		  $PropName		  "Parameters"
+		  $ObjectID		  30
+		  $ClassName		  "Simulink.MaskParameter"
+		  Type			  "edit"
+		  Name			  "ShowInLibBrowser"
+		  Prompt		  "Simulink:masks:CustCodeMaskParam1_MP"
+		  Value			  "0"
+		  Enabled		  "off"
+		  Visible		  "off"
+		}
+	      }
+	      System {
+		Name			"System Outputs"
+		Location		[628, 280, 831, 653]
+		Open			off
+		PortBlocksUseCompactNotation off
+		SetExecutionDomain	off
+		ExecutionDomainType	"Deduce"
+		ModelBrowserVisibility	off
+		ModelBrowserWidth	200
+		ScreenColor		"white"
+		PaperOrientation	"landscape"
+		PaperPositionMode	"auto"
+		PaperType		"usletter"
+		PaperUnits		"inches"
+		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+		TiledPageScale		1
+		ShowPageBoundaries	off
+		ZoomFactor		"100"
+	      }
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem2"
+	  SID			  "184"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 109, 405, 151]
+	  ZOrder		  3
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem2"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "175"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "185"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "277"
+	      Position		      [75, 9, 195, 51]
+	      ZOrder		      301
+	      Value		      "Init(3,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "278"
+	      Ports		      [1, 1]
+	      Position		      [245, 0, 370, 60]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem3"
+	  SID			  "188"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 109, 565, 151]
+	  ZOrder		  4
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem3"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "300"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "189"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "279"
+	      Position		      [270, 79, 390, 121]
+	      ZOrder		      301
+	      Value		      "Init(4,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "280"
+	      Ports		      [1, 1]
+	      Position		      [440, 70, 565, 130]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem4"
+	  SID			  "192"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 269, 95, 311]
+	  ZOrder		  5
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem4"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "300"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "193"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "281"
+	      Position		      [145, 49, 265, 91]
+	      ZOrder		      301
+	      Value		      "Init(5,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "282"
+	      Ports		      [1, 1]
+	      Position		      [315, 40, 440, 100]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem5"
+	  SID			  "196"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 269, 245, 311]
+	  ZOrder		  6
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem5"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "250"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "197"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "283"
+	      Position		      [135, -6, 255, 36]
+	      ZOrder		      301
+	      Value		      "Init(6,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "284"
+	      Ports		      [1, 1]
+	      Position		      [305, -15, 430, 45]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem6"
+	  SID			  "200"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [305, 269, 405, 311]
+	  ZOrder		  7
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem6"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "300"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "201"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "285"
+	      Position		      [150, -6, 270, 36]
+	      ZOrder		      301
+	      Value		      "Init(7,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "286"
+	      Ports		      [1, 1]
+	      Position		      [320, -15, 445, 45]
+	      ZOrder		      302
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem7"
+	  SID			  "204"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [465, 269, 565, 311]
+	  ZOrder		  8
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem7"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "200"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "205"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "287"
+	      Position		      [150, 29, 270, 71]
+	      ZOrder		      303
+	      Value		      "Init(8,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "288"
+	      Ports		      [1, 1]
+	      Position		      [320, 20, 445, 80]
+	      ZOrder		      304
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem8"
+	  SID			  "208"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 424, 95, 466]
+	  ZOrder		  9
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem8"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "500"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "209"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "289"
+	      Position		      [155, 74, 275, 116]
+	      ZOrder		      303
+	      Value		      "Init(9,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "290"
+	      Ports		      [1, 1]
+	      Position		      [325, 65, 450, 125]
+	      ZOrder		      304
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem9"
+	  SID			  "212"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [145, 424, 245, 466]
+	  ZOrder		  10
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem9"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "600"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "213"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "291"
+	      Position		      [180, -1, 300, 41]
+	      ZOrder		      303
+	      Value		      "Init(10,:)"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "292"
+	      Ports		      [1, 1]
+	      Position		      [350, -10, 475, 50]
+	      ZOrder		      304
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "Function-Call\nGenerator"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSplit"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem3"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem2"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem1"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 125; -583, 0; 0, 30]
+	  DstBlock		  "Function-Call\nSplit8"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit7"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 130; -559, 0]
+	  DstBlock		  "Function-Call\nSplit4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem4"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem5"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "Function-Call\nSplit6"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem6"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem9"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit9"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  18
+	  SrcBlock		  "Function-Call\nSplit8"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem8"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  19
+	  SrcBlock		  "Function-Call\nSplit7"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem7"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "Function-Call\nSplit9"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit10"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "Function-Call\nSplit10"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem10"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  26
+	  SrcBlock		  "Function-Call\nSplit11"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem12"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  31
+	  SrcBlock		  "Function-Call\nSplit12"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem11"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  32
+	  SrcBlock		  "Function-Call\nSplit10"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit12"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "Function-Call\nSplit12"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 135; -598, 0; 0, 60]
+	  DstBlock		  "Function-Call\nSplit11"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  37
+	  SrcBlock		  "Function-Call\nSplit11"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit13"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  38
+	  SrcBlock		  "Function-Call\nSplit13"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem13"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  39
+	  SrcBlock		  "Function-Call\nSplit13"
+	  SrcPort		  2
+	  Points		  [165, 0]
+	  DstBlock		  "Function-Call\nSubsystem14"
+	  DstPort		  trigger
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Enabled\nSubsystem3"
+      SID		      "216"
+      Ports		      [0, 1, 1]
+      Position		      [900, 554, 1000, 596]
+      ZOrder		      298
+      Commented		      "on"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Enabled\nSubsystem3"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  EnablePort
+	  Name			  "Enable"
+	  SID			  "217"
+	  Ports			  []
+	  Position		  [165, -55, 185, -35]
+	  ZOrder		  -2
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Bitwise OR"
+	  SID			  "361"
+	  Ports			  [2, 1]
+	  Position		  [820, 146, 860, 184]
+	  ZOrder		  266
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	  SourceType		  "Bitwise Operator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  logicop		  "OR"
+	  UseBitMask		  off
+	  NumInputPorts		  "2"
+	  BitMask		  "bin2dec('11011001')"
+	  BitMaskRealWorld	  "Stored Integer"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Bitwise OR1"
+	  SID			  "362"
+	  Ports			  [2, 1]
+	  Position		  [820, 296, 860, 334]
+	  ZOrder		  268
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	  SourceType		  "Bitwise Operator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  logicop		  "OR"
+	  UseBitMask		  off
+	  NumInputPorts		  "2"
+	  BitMask		  "bin2dec('11011001')"
+	  BitMaskRealWorld	  "Stored Integer"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Bitwise OR2"
+	  SID			  "364"
+	  Ports			  [2, 1]
+	  Position		  [820, 426, 860, 464]
+	  ZOrder		  270
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	  SourceType		  "Bitwise Operator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  logicop		  "OR"
+	  UseBitMask		  off
+	  NumInputPorts		  "2"
+	  BitMask		  "bin2dec('11011001')"
+	  BitMaskRealWorld	  "Stored Integer"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Function-Call\nGenerator"
+	  SID			  "218"
+	  Ports			  [0, 1]
+	  Position		  [-155, 39, -135, 61]
+	  ZOrder		  23
+	  LibraryVersion	  "1.444"
+	  SourceBlock		  "simulink/Ports &\nSubsystems/Function-Call\nGenerator"
+	  SourceType		  "Function-Call Generator"
+	  SourceProductName	  "Simulink"
+	  SourceProductBaseCode	  "SL"
+	  MultiThreadCoSim	  "auto"
+	  sample_time		  "1"
+	  numberOfIterations	  "1"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit"
+	  SID			  "219"
+	  Ports			  [1, 2]
+	  Position		  [35, 30, 55, 70]
+	  ZOrder		  12
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit1"
+	  SID			  "220"
+	  Ports			  [1, 2]
+	  Position		  [185, 30, 205, 70]
+	  ZOrder		  13
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit2"
+	  SID			  "221"
+	  Ports			  [1, 2]
+	  Position		  [345, 30, 365, 70]
+	  ZOrder		  14
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit3"
+	  SID			  "222"
+	  Ports			  [1, 2]
+	  Position		  [505, 30, 525, 70]
+	  ZOrder		  15
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit4"
+	  SID			  "223"
+	  Ports			  [1, 2]
+	  Position		  [35, 215, 55, 255]
+	  ZOrder		  16
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  FunctionCallSplit
+	  Name			  "Function-Call\nSplit5"
+	  SID			  "224"
+	  Ports			  [1, 2]
+	  Position		  [185, 215, 205, 255]
+	  ZOrder		  17
+	  ShowName		  off
+	  NumOutputPorts	  "2"
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem"
+	  SID			  "229"
+	  Ports			  [0, 0, 0, 1]
+	  Position		  [-5, 109, 95, 151]
+	  ZOrder		  1
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "80"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "230"
+	      Ports		      []
+	      Position		      [-40, -200, -20, -180]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise OR"
+	      SID		      "322"
+	      Ports		      [2, 1]
+	      Position		      [-100, -39, -60, -1]
+	      ZOrder		      311
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "OR"
+	      UseBitMask	      off
+	      NumInputPorts	      "2"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "323"
+	      Position		      [-290, -11, -210, 41]
+	      ZOrder		      312
+	      Value		      "MPUREG_GYRO_XOUT_H"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant1"
+	      SID		      "324"
+	      Position		      [-290, -86, -210, -34]
+	      ZOrder		      313
+	      Value		      "READ_FLAG"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "327"
+	      Ports		      [1, 1]
+	      Position		      [-5, -50, 120, 10]
+	      ZOrder		      316
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Line {
+	      ZOrder		      10
+	      SrcBlock		      "Bitwise OR"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      Points		      [89, 0; 0, -25]
+	      DstBlock		      "Bitwise OR"
+	      DstPort		      2
+	    }
+	    Line {
+	      ZOrder		      6
+	      SrcBlock		      "Constant1"
+	      SrcPort		      1
+	      Points		      [88, 0; 0, 30]
+	      DstBlock		      "Bitwise OR"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem1"
+	  SID			  "233"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [145, 109, 245, 151]
+	  ZOrder		  2
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem1"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "234"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "354"
+	      Ports		      [1, 1]
+	      Position		      [675, 26, 715, 64]
+	      ZOrder		      320
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "235"
+	      Position		      [135, 32, 250, 58]
+	      ZOrder		      81
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "347"
+	      Position		      [535, 28, 610, 62]
+	      ZOrder		      319
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "328"
+	      Ports		      [1, 1]
+	      Position		      [305, 15, 430, 75]
+	      ZOrder		      317
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "329"
+	      Position		      [795, 38, 825, 52]
+	      ZOrder		      318
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem2"
+	  SID			  "241"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [305, 109, 405, 151]
+	  ZOrder		  3
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem2"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "242"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "356"
+	      Ports		      [1, 1]
+	      Position		      [640, 21, 680, 59]
+	      ZOrder		      323
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "330"
+	      Position		      [140, 27, 255, 53]
+	      ZOrder		      319
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "348"
+	      Position		      [520, 23, 595, 57]
+	      ZOrder		      322
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "331"
+	      Ports		      [1, 1]
+	      Position		      [310, 10, 435, 70]
+	      ZOrder		      320
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "332"
+	      Position		      [725, 33, 755, 47]
+	      ZOrder		      321
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem3"
+	  SID			  "245"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [465, 109, 565, 151]
+	  ZOrder		  4
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem3"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "246"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "357"
+	      Ports		      [1, 1]
+	      Position		      [590, 21, 630, 59]
+	      ZOrder		      323
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "333"
+	      Position		      [5, 27, 120, 53]
+	      ZOrder		      319
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "349"
+	      Position		      [425, 23, 500, 57]
+	      ZOrder		      322
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "334"
+	      Ports		      [1, 1]
+	      Position		      [175, 10, 300, 70]
+	      ZOrder		      320
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "335"
+	      Position		      [725, 33, 755, 47]
+	      ZOrder		      321
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem4"
+	  SID			  "249"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [-5, 284, 95, 326]
+	  ZOrder		  5
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem4"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "250"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "358"
+	      Ports		      [1, 1]
+	      Position		      [490, 31, 530, 69]
+	      ZOrder		      323
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "336"
+	      Position		      [-50, 37, 65, 63]
+	      ZOrder		      319
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "350"
+	      Position		      [355, 33, 430, 67]
+	      ZOrder		      322
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "337"
+	      Ports		      [1, 1]
+	      Position		      [120, 20, 245, 80]
+	      ZOrder		      320
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "338"
+	      Position		      [575, 43, 605, 57]
+	      ZOrder		      321
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem5"
+	  SID			  "253"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [145, 284, 245, 326]
+	  ZOrder		  6
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem5"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "254"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "359"
+	      Ports		      [1, 1]
+	      Position		      [475, 36, 515, 74]
+	      ZOrder		      323
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "339"
+	      Position		      [-40, 42, 75, 68]
+	      ZOrder		      319
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "351"
+	      Position		      [330, 38, 405, 72]
+	      ZOrder		      322
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "340"
+	      Ports		      [1, 1]
+	      Position		      [130, 25, 255, 85]
+	      ZOrder		      320
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "341"
+	      Position		      [600, 48, 630, 62]
+	      ZOrder		      321
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  SubSystem
+	  Name			  "Function-Call\nSubsystem6"
+	  SID			  "257"
+	  Ports			  [0, 1, 0, 1]
+	  Position		  [305, 284, 405, 326]
+	  ZOrder		  7
+	  TreatAsAtomicUnit	  on
+	  RequestExecContextInheritance	off
+	  ContentPreviewEnabled	  on
+	  System {
+	    Name		    "Function-Call\nSubsystem6"
+	    Location		    [-8, -8, 1374, 736]
+	    Open		    off
+	    PortBlocksUseCompactNotation off
+	    SetExecutionDomain	    off
+	    ExecutionDomainType	    "Deduce"
+	    ModelBrowserVisibility  off
+	    ModelBrowserWidth	    200
+	    ScreenColor		    "white"
+	    PaperOrientation	    "landscape"
+	    PaperPositionMode	    "auto"
+	    PaperType		    "usletter"
+	    PaperUnits		    "inches"
+	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+	    TiledPageScale	    1
+	    ShowPageBoundaries	    off
+	    ZoomFactor		    "100"
+	    Block {
+	      BlockType		      TriggerPort
+	      Name		      "function"
+	      SID		      "258"
+	      Ports		      []
+	      Position		      [150, -85, 170, -65]
+	      ZOrder		      -2
+	      TriggerType	      "function-call"
+	      VariantControl	      "Variant"
+	      StatesWhenEnabling      "held"
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "Bitwise AND"
+	      SID		      "360"
+	      Ports		      [1, 1]
+	      Position		      [455, 61, 495, 99]
+	      ZOrder		      323
+	      LibraryVersion	      "1.444"
+	      SourceBlock	      "simulink/Logic and Bit\nOperations/Bitwise\nOperator"
+	      SourceType	      "Bitwise Operator"
+	      SourceProductName	      "Simulink"
+	      SourceProductBaseCode   "SL"
+	      MultiThreadCoSim	      "auto"
+	      logicop		      "AND"
+	      UseBitMask	      on
+	      NumInputPorts	      "1"
+	      BitMask		      "bin2dec('11011001')"
+	      BitMaskRealWorld	      "Stored Integer"
+	    }
+	    Block {
+	      BlockType		      Constant
+	      Name		      "Constant"
+	      SID		      "342"
+	      Position		      [-70, 67, 45, 93]
+	      ZOrder		      319
+	      Value		      "0"
+	      OutDataTypeStr	      "uint8"
+	    }
+	    Block {
+	      BlockType		      DataTypeConversion
+	      Name		      "Data Type Conversion"
+	      SID		      "352"
+	      Position		      [335, 63, 410, 97]
+	      ZOrder		      322
+	      OutDataTypeStr	      "int16"
+	      RndMeth		      "Floor"
+	      SaturateOnIntegerOverflow	off
+	    }
+	    Block {
+	      BlockType		      Reference
+	      Name		      "SPI WriteRead"
+	      SID		      "343"
+	      Ports		      [1, 1]
+	      Position		      [100, 50, 225, 110]
+	      ZOrder		      320
+	      LibraryVersion	      "1.307"
+	      SourceBlock	      "arduinolib/SPI WriteRead"
+	      SourceType	      "SPI WriteRead"
+	      SourceProductName	      "Simulink Support Package for Arduino Hardware"
+	      SourceProductBaseCode   "ARDUINO"
+	      slaveSelectPin_	      "10"
+	      blockPlatform	      "arduino"
+	    }
+	    Block {
+	      BlockType		      Outport
+	      Name		      "Out1"
+	      SID		      "344"
+	      Position		      [565, 73, 595, 87]
+	      ZOrder		      321
+	      IconDisplay	      "Port number"
+	    }
+	    Line {
+	      ZOrder		      2
+	      SrcBlock		      "SPI WriteRead"
+	      SrcPort		      1
+	      DstBlock		      "Data Type Conversion"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      3
+	      SrcBlock		      "Constant"
+	      SrcPort		      1
+	      DstBlock		      "SPI WriteRead"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      4
+	      SrcBlock		      "Data Type Conversion"
+	      SrcPort		      1
+	      DstBlock		      "Bitwise AND"
+	      DstPort		      1
+	    }
+	    Line {
+	      ZOrder		      5
+	      SrcBlock		      "Bitwise AND"
+	      SrcPort		      1
+	      DstBlock		      "Out1"
+	      DstPort		      1
+	    }
+	  }
+	}
+	Block {
+	  BlockType		  Mux
+	  Name			  "Mux"
+	  SID			  "366"
+	  Ports			  [3, 1]
+	  Position		  [1050, 243, 1060, 387]
+	  ZOrder		  271
+	  ShowName		  off
+	  Inputs		  "3"
+	  DisplayOption		  "bar"
+	}
+	Block {
+	  BlockType		  ArithShift
+	  Name			  "Shift\nArithmetic"
+	  SID			  "353"
+	  Ports			  [1, 1]
+	  Position		  [700, 215, 780, 255]
+	  ZOrder		  28
+	  InputPortMap		  "u0"
+	  BitShiftNumber	  "-8"
+	}
+	Block {
+	  BlockType		  ArithShift
+	  Name			  "Shift\nArithmetic1"
+	  SID			  "363"
+	  Ports			  [1, 1]
+	  Position		  [700, 365, 780, 405]
+	  ZOrder		  267
+	  InputPortMap		  "u0"
+	  BitShiftNumber	  "-8"
+	}
+	Block {
+	  BlockType		  ArithShift
+	  Name			  "Shift\nArithmetic2"
+	  SID			  "365"
+	  Ports			  [1, 1]
+	  Position		  [700, 495, 780, 535]
+	  ZOrder		  269
+	  InputPortMap		  "u0"
+	  BitShiftNumber	  "-8"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "367"
+	  Position		  [1140, 308, 1170, 322]
+	  ZOrder		  272
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "Function-Call\nSplit"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  48
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  2
+	  Points		  [145, 0]
+	  DstBlock		  "Function-Call\nSubsystem6"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Function-Call\nSplit5"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem5"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem4"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "Function-Call\nSplit4"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem1"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  17
+	  SrcBlock		  "Function-Call\nSplit1"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  18
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem2"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  19
+	  SrcBlock		  "Function-Call\nSplit2"
+	  SrcPort		  2
+	  DstBlock		  "Function-Call\nSplit3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSubsystem3"
+	  DstPort		  trigger
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "Function-Call\nGenerator"
+	  SrcPort		  1
+	  DstBlock		  "Function-Call\nSplit"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "Function-Call\nSplit3"
+	  SrcPort		  2
+	  Points		  [49, 0; 0, 140; -596, 0; 0, 45]
+	  DstBlock		  "Function-Call\nSplit4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "Function-Call\nSubsystem2"
+	  SrcPort		  1
+	  Points		  [25, 0; 0, 105]
+	  DstBlock		  "Shift\nArithmetic"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  34
+	  SrcBlock		  "Function-Call\nSubsystem1"
+	  SrcPort		  1
+	  Points		  [25, 0; 0, 25]
+	  DstBlock		  "Bitwise OR"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  35
+	  SrcBlock		  "Shift\nArithmetic"
+	  SrcPort		  1
+	  Points		  [14, 0; 0, -60]
+	  DstBlock		  "Bitwise OR"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  36
+	  SrcBlock		  "Shift\nArithmetic1"
+	  SrcPort		  1
+	  Points		  [14, 0; 0, -60]
+	  DstBlock		  "Bitwise OR1"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  38
+	  SrcBlock		  "Function-Call\nSubsystem3"
+	  SrcPort		  1
+	  Points		  [70, 0; 0, 175]
+	  DstBlock		  "Bitwise OR1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  39
+	  SrcBlock		  "Function-Call\nSubsystem4"
+	  SrcPort		  1
+	  Points		  [20, 0; 0, 80]
+	  DstBlock		  "Shift\nArithmetic1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  40
+	  SrcBlock		  "Shift\nArithmetic2"
+	  SrcPort		  1
+	  Points		  [14, 0; 0, -60]
+	  DstBlock		  "Bitwise OR2"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  41
+	  SrcBlock		  "Function-Call\nSubsystem5"
+	  SrcPort		  1
+	  Points		  [25, 0; 0, 130]
+	  DstBlock		  "Bitwise OR2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  42
+	  SrcBlock		  "Function-Call\nSubsystem6"
+	  SrcPort		  1
+	  Points		  [113, 0; 0, 210]
+	  DstBlock		  "Shift\nArithmetic2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  43
+	  SrcBlock		  "Bitwise OR1"
+	  SrcPort		  1
+	  DstBlock		  "Mux"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  44
+	  SrcBlock		  "Bitwise OR"
+	  SrcPort		  1
+	  Points		  [91, 0; 0, 105]
+	  DstBlock		  "Mux"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  45
+	  SrcBlock		  "Bitwise OR2"
+	  SrcPort		  1
+	  Points		  [90, 0; 0, -85]
+	  DstBlock		  "Mux"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  46
+	  SrcBlock		  "Mux"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+      }
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "NOT"
+      SID		      "295"
+      Ports		      [1, 1]
+      Position		      [804, 500, 836, 530]
+      ZOrder		      300
+      BlockRotation	      270
+      BlockMirror	      on
+      NamePlacement	      "alternate"
+      Commented		      "on"
+      Operator		      "NOT"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      Logic
+      Name		      "OR"
+      SID		      "98"
+      Ports		      [1, 1]
+      Position		      [875, 279, 905, 311]
+      ZOrder		      291
+      Commented		      "on"
+      Operator		      "OR"
+      Inputs		      "1"
+      AllPortsSameDT	      off
+      OutDataTypeStr	      "boolean"
+    }
+    Block {
+      BlockType		      RateTransition
+      Name		      "Rate Transition"
+      SID		      "303"
+      Position		      [885, 454, 925, 496]
+      ZOrder		      303
+      Commented		      "on"
+    }
+    Block {
+      BlockType		      UnitDelay
+      Name		      "Unit Delay"
+      SID		      "302"
+      Position		      [740, 458, 775, 492]
+      ZOrder		      302
+      Commented		      "on"
+      InputProcessing	      "Elements as channels (sample based)"
+      SampleTime	      "-1"
+    }
+    Line {
+      ZOrder		      1
+      SrcBlock		      "Constant"
+      SrcPort		      1
+      DstBlock		      "Detect\nChange"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      2
+      SrcBlock		      "Detect\nChange"
+      SrcPort		      1
+      DstBlock		      "AND"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      20
+      SrcBlock		      "AND"
+      SrcPort		      1
+      Points		      [40, 0]
+      Branch {
+	ZOrder			24
+	DstBlock		"OR"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			23
+	DstBlock		"Enabled\nSubsystem"
+	DstPort			enable
+      }
+    }
+    Line {
+      ZOrder		      25
+      SrcBlock		      "OR"
+      SrcPort		      1
+      Points		      [40, 0]
+      DstBlock		      "Enabled\nSubsystem1"
+      DstPort		      enable
+    }
+    Line {
+      ZOrder		      40
+      SrcBlock		      "Constant1"
+      SrcPort		      1
+      DstBlock		      "Unit Delay"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      39
+      SrcBlock		      "NOT"
+      SrcPort		      1
+      DstBlock		      "Enabled\nSubsystem2"
+      DstPort		      enable
+    }
+    Line {
+      ZOrder		      42
+      SrcBlock		      "Unit Delay"
+      SrcPort		      1
+      Points		      [40, 0]
+      Branch {
+	ZOrder			41
+	DstBlock		"NOT"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			36
+	DstBlock		"Rate Transition"
+	DstPort			1
+      }
+    }
+    Line {
+      ZOrder		      43
+      SrcBlock		      "Rate Transition"
+      SrcPort		      1
+      Points		      [20, 0]
+      DstBlock		      "Enabled\nSubsystem3"
+      DstPort		      enable
+    }
+    Line {
+      ZOrder		      44
+      SrcBlock		      "Enabled\nSubsystem3"
+      SrcPort		      1
+      DstBlock		      "Display"
+      DstPort		      1
+    }
+  }
+}
