@@ -3,20 +3,25 @@
 #ifndef ANGLECORRECTION_H_
 #define ANGLECORRECTION_H_
 
+typedef struct 
+{
+    double u;
+    double ncount1;
+    double rem1;
+    double s1;
+    double u1;
+    double n1;
+}dataStory;
 
-double fcn(double u,double u1, double s1, double n1, double ncount1,double rem1);
+extern double y;
+extern double s;
+extern double n;
+extern double up;
+extern double rem;
+extern double ncount;
 
-double fcny(void);
-
-double fcns(void);
-
-double fcnn(void);
-
-double fcnup(void);
-
-double fcnrem(void);
-
-double fcnncount(void);
+extern dataStory datastory;
+extern void fcn(void);
 
 #endif
 //=====================================================================================================
